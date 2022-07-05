@@ -18,8 +18,10 @@ commonmark==0.9.1
 debugpy==1.6.0
 decorator==5.1.1
 defusedxml==0.7.1
+dj-database-url==0.5.0
 Django==4.0.6
 django-crispy-forms==1.14.0
+django-heroku==0.3.1
 entrypoints==0.4
 executing==0.8.3
 fastjsonschema==2.15.3
@@ -59,6 +61,7 @@ prometheus-client==0.14.1
 prompt-toolkit==3.0.30
 protobuf==3.20.1
 psutil==5.9.1
+psycopg2==2.9.3
 pure-eval==0.2.2
 pyarrow==8.0.0
 pycparser==2.21
@@ -97,5 +100,6 @@ validators==0.20.0
 watchdog==2.1.9
 wcwidth==0.2.5
 webencodings==0.5.1
+whitenoise==6.2.0
 widgetsnbextension==3.6.1
 zipp==3.8.0
