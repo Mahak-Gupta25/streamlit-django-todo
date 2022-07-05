@@ -1,1 +1,1 @@
-web: gunicorn streamlit_django_todo.wsgi --log-file-
+web: gunicorn streamlit_django_todo.wsgi 
