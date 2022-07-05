@@ -1,0 +1,1 @@
+web: gunicorn streamlit_django_todo.wsgi
