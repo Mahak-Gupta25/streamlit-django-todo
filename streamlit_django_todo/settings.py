@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(hc%$s%ve&^qwre)3b(h5$^ddr*mq)n0yiusy50+2l5jvm*$nc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['streamlit-django-todo.herokuapp.com','streamlit-django-todo.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     'todo',
     'crispy_forms',
-    'streamlit-django-todo.herokuapp.com',
+    
 ]
 
 MIDDLEWARE = [
