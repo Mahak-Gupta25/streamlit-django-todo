@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import django_heroku
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -117,7 +117,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-LOGIN_REDIRECT_URL = '/app'
+LOGIN_REDIRECT_URL = 'https://mahak-gupta25-streamlit-django-todo-streamlit-fsztnh.streamlitapp.com/'
 LOGIN_URL = 'login'
 
 # Static files (CSS, JavaScript, Images)
@@ -130,4 +130,3 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-django_heroku.settings(locals())

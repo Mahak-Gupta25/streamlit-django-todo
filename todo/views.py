@@ -10,8 +10,7 @@ import requests
 def home(request):
     return render(request, 'todo/home.html')
 
-def app(request):
-    return render(request, 'todo/app.html')
+
 
 
 def register(request):
