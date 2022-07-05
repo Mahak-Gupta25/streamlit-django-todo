@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(hc%$s%ve&^qwre)3b(h5$^ddr*mq)n0yiusy50+2l5jvm*$nc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['streamlit-django-todo.herokuapp.com','streamlit-django-todo.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['streamlit-django-todo.herokuapp.com','https://mahak-gupta25-streamlit-django-todo-streamlit-streamlit-19e872.streamlitapp.com/', '127.0.0.1']
 
 
 # Application definition
@@ -119,7 +119,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-LOGIN_REDIRECT_URL = 'https://mahak-gupta25-streamlit-django-todo-streamlit-fsztnh.streamlitapp.com/'
+LOGIN_REDIRECT_URL = 'https://mahak-gupta25-streamlit-django-todo-streamlit-streamlit-19e872.streamlitapp.com/'
 LOGIN_URL = 'login'
 
 # Static files (CSS, JavaScript, Images)
