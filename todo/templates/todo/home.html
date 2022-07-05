@@ -1,31 +1,29 @@
 {% extends 'todo/base.html' %}
 {% load static %}
 {% load crispy_forms_tags %}
+
+{% block head %}
+    <style>
+
+    </style>
+{% endblock head %}
+
 {% block content %}
 
-<div>
-    <div class = "col-md-4"; margin =" 100px">
-        <div class="card">
-            <h5 class="card-header">Register</h5>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="{% url 'register' %}" class="btn btn-primary">Register Here!</a>
-            </div>
-        </div>
+<div class="card text-center" style="height:300px; width: 50%; margin: auto;" >
+    <div class="card-header" style="background-color:black; color: azure;">
+      <h4>To Do App</h4>
     </div>
-
-    <div class = "col-md-4"; margin =" 100px">
-        <div class="card">
-            <h5 class="card-header">Login</h5>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="{% url 'login' %}" class="btn btn-primary">Login!</a>
-            </div>
-        </div>
+    <div class="card-body">
+      <h5 class="card-title">Register or Login</h5>
+      <p class="card-text">Register or Login yourself to access the To-Do App</p>
+      <a href="{% url 'register' %}" class="btn btn-primary">Register Now!</a>
+      <a href="{% url 'login' %}" class="btn btn-primary">Login</a>
     </div>
-</div>
+    <div class="card-footer text-muted">
+      
+    </div>
+  </div>
 
 
 {% endblock content %}
